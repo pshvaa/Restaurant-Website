@@ -1,0 +1,13 @@
+.event-card{
+    width: 24rem;
+    height: 35rem;
+    padding: 1.2rem;
+}
+
+.event-img{
+    width:100%;
+}
+
+.event-card span{
+    display:inline;
+}

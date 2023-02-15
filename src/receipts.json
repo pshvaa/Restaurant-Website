@@ -1,0 +1,176 @@
+[
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "breakfast"
+    },
+
+    
+    {
+        "receiptImage" : "https://t3.ftcdn.net/jpg/00/78/87/94/360_F_78879462_KyMC4iWhDHLlEEZDAOLiDWPuubnAaMMk.jpg",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "breakfast"
+    },
+
+    {
+        "receiptImage" : "https://t3.ftcdn.net/jpg/00/78/87/94/360_F_78879462_KyMC4iWhDHLlEEZDAOLiDWPuubnAaMMk.jpg",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "breakfast"
+    },
+
+    {
+        "receiptImage" : "https://t3.ftcdn.net/jpg/00/78/87/94/360_F_78879462_KyMC4iWhDHLlEEZDAOLiDWPuubnAaMMk.jpg",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "breakfast"
+    },
+
+
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "lunch"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "lunch"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "lunch"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "lunch"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "dinner"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "dinner"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "dinner"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "dinner"
+    },
+    {
+        "receiptImage" : "https://www.eatthis.com/wp-content/uploads/sites/4/2019/10/maggianos-chocolate-zuccotto-cake.jpg",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "category" : "CHEF SElECTION",
+        "type1" : "dessert"
+    },
+
+    {
+        "receiptImage" : "https://www.eatthis.com/wp-content/uploads/sites/4/2019/10/maggianos-chocolate-zuccotto-cake.jpg",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "category" : "CHEF SElECTION",
+        "type1" : "dessert"
+    },
+
+
+    {
+        "receiptImage" : "https://www.eatthis.com/wp-content/uploads/sites/4/2019/10/maggianos-chocolate-zuccotto-cake.jpg",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "category" : "CHEF SElECTION",
+        "type2" : "dessert"
+    },
+
+    {
+        "receiptImage" : "https://www.eatthis.com/wp-content/uploads/sites/4/2019/10/maggianos-chocolate-zuccotto-cake.jpg",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "category" : "CHEF SElECTION",
+        "type2" : "dessert"
+    },
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "drink"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type1" : "drink"
+    },
+
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "drink"
+    },
+    
+    {
+        "receiptImage" : "https://images.squarespace-cdn.com/content/v1/555e7161e4b0bc993c30c540/1432527329759-KXW3GV7M2UVEJRWCLO25/69064_159546820743806_2878726_n.jpg?format=2500w",
+        "name" : "Grilled Seafood Paella",
+        "place" : "Travel, Gourmet",
+        "price" : "$24.95",
+        "content": "Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.",
+        "type2" : "drink"
+    }
+]

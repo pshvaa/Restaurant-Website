@@ -1,0 +1,56 @@
+/* .testimonials-sec{
+    background-image: url(https://pappagallos.com/wp-content/uploads/restaurants-satellite-beach-25-landing-page-testimonial-background-1-1080x675.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    /* color: var(--blue); */
+  
+
+  /* linear-gradient(black, black no-repeat); */
+
+  /* .testimonials-sec{
+    height: 100vh;
+  } */
+
+  .swiper-wrapper{
+    padding : 2.5rem;
+  }
+
+  .test-parallax{
+    background-image:  url("https://nextrestaurants.com/wp-content/uploads/2019/10/Restaurant-Customer-Retention-Program-1140x760.png");
+    min-height: 300px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    /* background: radial-gradient(farthest-corner at 30vw 20vh,#7397a1 1%,#3f2c41 100%); */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    z-index: -1; */
+
+  }
+
+  /* .regular-wrapper{
+    position: absolute;
+    min-height: 50%;
+    z-index: 9;
+  } */
+
+
+  /* .testimonials-sec{
+    opacity: 0.9;
+    z-index: 1;
+    background: #aaa;
+    padding: 5vh 5vw;
+    top:50vh;
+    position: absolute;
+    transform: translateZ(-1px) scale(2);
+  } */
+
+  .testimonials-sec .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}

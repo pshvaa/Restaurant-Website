@@ -1,0 +1,62 @@
+.accordion {
+    max-width: 768px;
+    color: #222;
+  }
+  .accordion-item {
+    list-style: none;
+    margin-bottom: 2rem;
+    /* box-shadow: -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288); */
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+  }
+
+  .accordion-item {
+    padding: 0.2rem;
+}
+
+
+
+
+  .accordion-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #222; */
+    padding: 1em;
+  }
+  .accordion-toggle:hover {
+    background-color: #ddd;
+  }
+  .accordion-toggle h3 {
+    margin: 0;
+    color: #222;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .accordion-toggle span{
+    display: block;
+    font-weight: bolder;
+    color: #fff;
+    background: #bb9356;
+    padding:0.2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accordion-toggle.recipes-inline, .accordion-content.recipes-inline{
+    margin: 1rem;
+    border: 2px dashed bisque;
+  }
+  .accordion-content {
+    color: #eee;
+    background-color: #fff;
+    padding: 1em;
+    transition: height ease 0.2s;
+    margin: 1rem;
+  }
+

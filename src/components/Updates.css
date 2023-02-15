@@ -1,0 +1,24 @@
+.updates-section{
+    background-image: url("https://media.istockphoto.com/id/959104114/vector/light-colored-beige-vintage-paper.jpg?s=612x612&w=0&k=20&c=JvE0rI9Htw-dwm6VlxW7UVbHtxKi_SnMEjpvXfwISa8=");
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.handwriting, .heading{
+    text-align: center;
+}
+
+.handwriting{
+    display: block;
+}
+
+/* .pattern{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.updates-section .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+      display: none;
+}

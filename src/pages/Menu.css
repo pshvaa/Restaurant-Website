@@ -1,0 +1,99 @@
+.parallax-menu-intro{
+    height: 30rem;
+    overflow: hidden;
+    display: block;
+    background: black;
+    /* margin-top: 200px; */
+    margin-bottom: 200px;
+    position: relative;
+    /* top: 2rem; */
+    overflow: hidden;
+  }
+
+  .parallax-title{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    top: 66%;
+    left: 0;
+    padding: 16px;
+    width: 100%; 
+    transform-style: flat; 
+     transform: translate3d(0,-50%,0);
+  }
+
+  .bg-parallax-menu {
+    background-image: url("https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1200&format=pjpg&exif=1&iptc=1");
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    /* z-index: 9; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-attachment: fixed;
+     opacity: .7; 
+  }
+
+  .bg-parallax-menu.food-menu{
+    background-image: url("https://img.freepik.com/free-photo/bread-slices-with-topping-tomato-cheese-olives-white-table_23-2148194999.jpg?w=2000");
+    /* margin-top: 0; */
+    opacity: 1;
+  }
+  
+  /* .text-center {
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 22px;
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  */
+
+  .bg-parallax{
+    background-image: url("../images/parallax-img/21.jpg");
+    min-height: 300px;
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    height:100%;
+  }
+  
+  .recipes{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 1.3rem;
+      width: 68%;
+      /* max-width: fit-content; */
+      height: 50%;
+      margin: 0 auto;
+      
+  }
+  
+  .recipes-inline{
+      border: 2px dashed #eee;
+      
+  }
+
+  /* .menu{
+    padding: 4rem;
+  } */
+
+  /* .all-menu{
+    
+  } */
+
+
+  

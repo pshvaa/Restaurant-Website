@@ -1,0 +1,51 @@
+.welcome-section{
+    margin: 15rem auto;
+    padding:6rem;
+}
+
+.welcome-section .text{
+    width: 50%;
+    height: 9.3rem;
+    text-align: center;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-left, .img-right{
+    width: 50%;
+    height: 85%;
+    min-width: 20rem;
+}
+
+/* .img-left{
+    margin-right:2px;
+} */
+
+.right-img{
+    display: flex;
+    /* flex-wrap:wrap;  Bunu mediada yaz*/
+    gap: 2rem;
+}
+
+/* @media(max-width: 630px){
+    .welcome-section .text{
+        width:92%;
+    }
+} */
+
+
+@media(max-width:768px){
+    .right-img{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .welcome-section .text{
+        width:92%;
+    }
+}

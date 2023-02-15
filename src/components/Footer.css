@@ -1,0 +1,49 @@
+.footer{
+    background-color: #222;
+}
+
+.footer-top{
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
+.following .text{
+    padding: 1.2rem;
+}
+
+.social-link{
+    background-color: #1c1c1c;
+    border-radius: 0.4rem; 
+    font-size: 1.2rem;
+    margin-left: 1.2rem;
+    text-align: center;
+    line-height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    padding-bottom: 1.2rem;
+}
+
+.advertise .text{
+    width: 40rem;
+    height: 19rem;
+}
+
+.footer-bottom{
+    background-color: #1b1b1b;
+    padding: 2.2rem;
+}
+
+.our-info, .copyright{
+    text-align: center;
+}
+
+.our-info a{
+    color: #fff;
+}
+

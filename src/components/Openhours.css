@@ -1,0 +1,30 @@
+.open-hours{
+    background: #fff;
+    /* color: #222; */
+    padding: 3rem;
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+.open-hours p, h1, th, td{
+    color: #222;
+}
+
+
+.open-hours .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.open-hours p{
+    font-size: 1.3rem;
+}
+
+.open-hours h1{
+    font-weight:600;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
