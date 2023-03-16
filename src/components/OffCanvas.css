@@ -1,0 +1,19 @@
+.offcanvas-body h1::after,
+.off-link::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+    border-bottom: 3px solid var(--dark-brown);
+  }
+
+  .off-link{
+    color : #222;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    position: relative;
+    padding: 2rem 0;
+  }

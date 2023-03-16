@@ -1,12 +1,29 @@
 .testimonial-card{
     position: relative;
-    width:350px;
+    width:35rem;
+    height: 37rem;
     margin: 0 auto;
-    background:#333;
-    padding: 20px;
+    background: #222;
+    padding: 12px;
     box-sizing: border-box;
     text-align: center;
     box-shadow: 0 10px 40px rgba(0,0,0,.5);
+}
+
+
+
+.testimonial-card .divider-shape-up{
+    /* width: 12.4rem;
+    height: 4rem;
+    background: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/arrow-up.png) center no-repeat;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    top: auto;
+    left: 50%;
+    margin-left: -6.2rem; */
+    top: auto;
+    bottom:0;
 }
 
 .client-img{
@@ -26,15 +43,34 @@
    z-index: 2;
 }
 
+.testimonial-content.testimonial-inline{
+    /* padding: 2rem; */
+    margin: 2rem;
+    border: 2px dashed var(--gold-crayola);
+}
+
 
 .testimonial-content > p{
-    font-size: 18px;
-    line-height: 24px;
-    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    padding: 1rem;
+    /* line-height: 24px; */
+    /* font-size: 14px; */
+    font-weight: 400;
+    color: #a5a5a5;
+    line-height: 2.5rem;
+    /* margin-bottom: 23px; */
 }
 
 .testimonial-content span{
-    color: #03a9f4;
-    font-size: 14px;
+    color: var(--gold-crayola);
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
     transition: 0.5s;
+    /* font-size: 13px; */
+    line-height: 2.3;
+    /* color: #bb9356; */
+    /* margin-bottom: 0; */
 }

@@ -6,10 +6,26 @@
 }
 
 #features {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mykaleidoscope.ru/en/uploads/posts/2022-09/1663731150_1-mykaleidoscope-ru-p-food-on-a-black-background-yeda-oboi-1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://7oroof.com/tfdemos/wp-granny/wp-content/uploads/2017/02/granny-bg-pt-contact.jpg");
+    background-color: #666;
+    background-blend-mode: multiply;
+    /* perspective: 1000px;
+    perspective-origin: 50% 50%;
+    animation: scroll-fi 70s linear infinite; */
     /* margin: 15rem auto !important;  doesn't work*/
-    height: 50rem;
+    /* height: 100vh; */
 }
+
+#features .advantage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0 5rem;
+}
+
+
 
 .feature {
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -18,10 +34,35 @@
 .feature .feature-icon {
     width: 80px;
     height: 80px;
-    background-color: #F58d17;
+    background-color: transparent;
     color: #fff;
     font-size: 28px;
-    display: inline-grid;
+    display: inline-block;
     align-content: center;
     text-align: center;
 }
+
+.feature .mt-4.mb-2{
+    /* color: var(--heading-color); */
+    font-family: 'Handlee',cursive;
+    font-size: 2.5rem;
+    /* font-family: var(--font-family-Forum); */
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.features .container .ustunlukler{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width:970px){
+    #features .advantage{
+        width: 100%;
+    }
+}
+

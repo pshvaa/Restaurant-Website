@@ -1,13 +1,97 @@
 .event-card{
-    width: 24rem;
-    height: 35rem;
+    width: 40rem;
+    height: 55rem;
     padding: 1.2rem;
+    position: relative;
+    /* position: absolute; */
+    /* top: 20px;
+    left: 20px; */
+}
+
+/* .event-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  } */
+
+/* .event-img-bottom{
+    position: relative;
+    height: 8px;
+    display: block;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/h_line1_bottom.png);
+} */
+
+.event-content .update-title{
+    color: var(--dark-brown);
+    font-family: 'Handlee';
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: none;
+    padding-top:2rem;
+}
+
+.event-metadata{
+    padding: 1rem;
+}
+
+
+
+.event-card .meta{
+    color: #919191;
+}
+
+.meta span{
+    padding:0 1rem;
+    font-weight: 200;
+}
+
+.meta-style{
+    font-weight: 900;
+    font-size: 1.2rem;
+    /* padding-right: 10px; */
+    color: #919191;
 }
 
 .event-img{
     width:100%;
+    height:24rem;
 }
 
 .event-card span{
     display:inline;
+}
+
+/* .event-img-top{
+    top: 0;
+    background-image: url(	https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/h_line1.png);
+}
+
+.event-img-bottom{
+    bottom: 0;
+    background-image: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/h_line1_bottom.png);
+}
+
+.crispy-1{
+    height: 8px;
+    display: block;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+} */
+
+.fa-pencil{
+    color: #919191;
+    padding-right: 4px;
+}
+
+.fa-bookmark{
+    color: #919191;
+    padding-right: 4px;
 }

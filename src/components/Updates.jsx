@@ -14,9 +14,10 @@ import eventData from '../events.json'
 
 const Updates = () => {
   return (
-    <div className="updates-section row">
-          <span className="handwriting">Don't Miss</span>
-          <h1 className="heading">Our News & Events</h1>
+    <div className="updates-section section row">
+         
+          <h1 className="heading">Yeniliklər & Kampaniyalar</h1>
+          {/* <span className="handwriting text-grey">Təkliflərimiz, reseptlərimiz və tədbirlərimiz haqqında bilmək üçün ən son xəbər yeniləmələrimizi izləyin.</span> */}
 
           {/* <img src="../images/pattern.png" className='pattern'/> */}
 
@@ -25,6 +26,7 @@ const Updates = () => {
           <Swiper
         slidesPerView={3}
         spaceBetween={30}
+        loop={true}
         pagination={{
           clickable: true,
         }}
@@ -40,6 +42,11 @@ const Updates = () => {
             slidesPerView: 1,
             spaceBetween: 20,
           },
+          500: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+
           768: {
             slidesPerView: 2,
             spaceBetween: 40,
@@ -61,7 +68,7 @@ const Updates = () => {
        
       </Swiper>
 
-          
+      <div className="section-divider"></div> 
     </div>
   )
 }

@@ -17,13 +17,16 @@
   }
 
   .test-parallax{
-    background-image:  url("https://nextrestaurants.com/wp-content/uploads/2019/10/Restaurant-Customer-Retention-Program-1140x760.png");
+    background-image:  url("https://kpc.com/wp-content/uploads/2021/10/default-bg-1920x636.jpeg");
     min-height: 300px;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    padding: 10rem;
     /* filter: brightness(50%); */
     /* background: radial-gradient(farthest-corner at 30vw 20vh,#7397a1 1%,#3f2c41 100%); */
     /* position: absolute;
@@ -32,6 +35,10 @@
     transform-style: preserve-3d;
     z-index: -1; */
 
+  }
+
+  .test-parallax .heading{
+    color: #fff;
   }
 
   /* .regular-wrapper{
@@ -54,3 +61,40 @@
   .testimonials-sec .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
     display: none;
 }
+
+.form-left .headline-1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    color: var(--davys-grey);
+}
+
+@media(max-width: 1390px){
+  .test-parallax{
+    padding: 8rem;
+  }
+}
+
+@media(max-width: 930px){
+  .test-parallax{
+    padding: 6rem;
+  }
+}
+
+@media(max-width: 830px){
+  .test-parallax{
+    padding: 5rem;
+  }
+}
+
+@media(max-width: 730px){
+  .test-parallax{
+    padding: 4rem;
+  }
+}
+
+@media(max-width: 630px){
+  .testimonials-sec .heading{
+    font-size: 4rem;
+  }
+}
+

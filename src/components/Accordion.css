@@ -25,14 +25,21 @@
     /* background-color: #222; */
     padding: 1em;
   }
-  .accordion-toggle:hover {
-    background-color: #ddd;
-  }
+  /* .accordion-toggle:hover {
+    background-color: rgba(0, 0, 0, .2);
+  } */
   .accordion-toggle h3 {
-    margin: 0;
-    color: #222;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    color: #282828;
+    font-weight: 600;
     text-transform: capitalize;
+    position: relative;
+    display: block;
+    line-height: 27px;
+    margin: 0;
+    /* color: #222;
+    font-size: 1.2rem;
+    text-transform: capitalize; */
   }
 
   .accordion-toggle span{
@@ -53,7 +60,13 @@
     border: 2px dashed bisque;
   }
   .accordion-content {
-    color: #eee;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px dashed #bb9356;
+    margin-top: 10px;
+    color: #a5a5a5;
     background-color: #fff;
     padding: 1em;
     transition: height ease 0.2s;

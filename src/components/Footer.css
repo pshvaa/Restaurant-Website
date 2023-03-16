@@ -1,10 +1,114 @@
-.footer{
+/* .footer{
     background-color: #222;
+} */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .footer-top{
+    width: 100vw;
     padding: 5rem;
     flex-wrap: wrap;
+}
+
+.elaqe .text-white,
+.unvan .text-white{
+    font-family: 'Merienda', cursive;
+}
+
+.unvan .text{
+    font-family: 'Poppins', sans-serif;
+    width: 26rem;
+    text-align: center;
+}
+
+/* .elaqe .text-grey{
+    text-align: center;
+} */
+
+.unvan .text,
+.advertise .text{
+    margin-bottom: 0;
+}
+
+.footer-link{
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--gold-crayola);
+}
+
+.footer-link:hover{
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.make-reserv{
+    /* background-color: #222; */
+    position: relative;
+    /* background-color: #1b1b1b; */
+    background-color: rgba(0, 0, .4);
+    margin: auto;
+    z-index: 99;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    max-width: 39rem;
+    margin-top: -13rem;
+}
+
+.make-reserv:before,
+.make-reserv:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 94px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.make-reserv:before{
+    top: -18px;
+    background: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/ft-arrow-top.png);
+}
+
+.make-reserv:after{
+    bottom: -19px;
+    background-image: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/ft-arrow-bottom.png);
+}
+
+/* .make-reserv .button-1{
+    margin: 2.5rem auto;
+} */
+
+.make-reserv .main-button-1{
+   width: 100%;
+}
+.saatlar{
+    padding: 1.7rem 4rem 4rem;
+}
+
+.open-label{
+    border-bottom: 1px dashed #49433f;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.open-label .last{
+    padding-right: 5rem;
 }
 
 .following .text{
@@ -13,30 +117,63 @@
 
 .social-link{
     background-color: #1c1c1c;
-    border-radius: 0.4rem; 
-    font-size: 1.2rem;
+    border-radius: 50%; 
+    font-size: 2.2rem;
     margin-left: 1.2rem;
     text-align: center;
     line-height: 4rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo-img{
+/* .logo-img{
     padding-bottom: 1.2rem;
 }
 
 .advertise .text{
     width: 40rem;
     height: 19rem;
+} */
+
+.footer-middle{
+    padding: 0 8rem;
+    margin: 0 9rem;
+}
+
+.footer-middle input{
+    height: 100%;
 }
 
 .footer-bottom{
     background-color: #1b1b1b;
     padding: 2.2rem;
+    position: relative;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+.footer-bottom:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 94px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(	https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/ft-arrow-top.png);
+    top: -19px;
+}
+
+.our-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .our-info, .copyright{
@@ -46,4 +183,60 @@
 .our-info a{
     color: #fff;
 }
+
+@media(max-width:1112px) and (min-width:1091px){
+      .footer-top{
+        flex-wrap: wrap-reverse;
+        margin-top: 15rem;
+      }
+}
+
+@media(max-width:1091px) and (min-width: 1000px){
+    .make-reserv{
+        margin: 5rem auto;
+        /* padding: 0; */
+    }
+
+    .footer-top{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:1000px){
+    .make-reserv{
+        display: block;
+        margin: 5rem 0 5rem;
+    }
+
+    .footer-link{
+        text-align: center;
+    }
+
+    .footer-middle{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .footer-middle input{
+        margin: 0 7rem;
+    }
+
+    .following{
+        padding: 3rem;
+    }
+}
+
+@media(min-width:748px) and (max-width:1000px){
+    .footer-top{
+        padding: 7rem;
+    }
+    .unvan,
+    .elaqe{
+        padding: 3rem;
+        width: 100vw;
+    }
+}
+
 

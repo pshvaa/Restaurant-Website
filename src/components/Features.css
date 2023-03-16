@@ -20,3 +20,9 @@
   color: var(--quick-silver);
   line-height: var(--lineHeight-6);
 }
+
+.skill-icon{
+  font-weight: 400;
+  width: 10rem;
+  height: 8rem;
+}

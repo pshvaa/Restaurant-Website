@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import './App.css';
 import { BrowserRouter , Router, Routes, Route } from 'react-router-dom';
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Components in Route system
 import Layout from './pages/Layout';
@@ -25,27 +29,40 @@ import Navbar from './components/Navbar';
 import Testimonials from './components/Testimonials';
 import Updates from './components/Updates';
 import Footer from './components/Footer'
+import ScrollTopArrow from './components/ScrollTopArrow';
+import ComingSoonPage from './pages/ComingSoonPage';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       
   
          <BrowserRouter>
+           
             <Navbar />
+
             <Routes >
                 <Route path ='/' element = {<Home />} />
                 <Route path = '/story' element = {<Story />} />
                 <Route path = '/chefs' element = {<Chefs />} />
                 <Route path = '/gallery' element = {<Gallery />} />
+                <Route path = '/soon' element = {<ComingSoonPage />} />
                 <Route path='/menu' element = {<Menu />} />
                 <Route path = '/blogs' element = {<Blogs />} />
                 <Route path = '/faq' element = {<Faq />} />
                 <Route path = '/contact' element = {<Contact />} />
                 <Route path = '*' element = {<NotFoundPage />} />
             </Routes>
+            <ScrollTopArrow />
             <Footer />
          </BrowserRouter> 
        {/* <Navbar /> */}

@@ -1,4 +1,20 @@
-#menu-posts .nav-pills .nav-link {
+#menu-post{
+    /* background: #EEE8D7; */
+    text-align:center;
+    padding:30px 0;
+    height: 100%;
+    /* margin:0 30%; */
+    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+}
+
+#menu-post .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-post .nav-pills .nav-link {
     /* background-color: #fff; */
     margin-left: 8px;
     margin-right: 8px;
@@ -7,11 +23,29 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
-#menu .nav-pills .nav-link.active {
-    background-color: #F58d17;
+#menu-post .nav-pills .nav-link.active {
+    background-color: #222;
     /* color: #ffffff; */
 } 
 
-.menu-item .stars {
-    color: #F58d17;
+.tab-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#pills-food-tab,
+#pills-events-tab,
+#pills--location-tab{
+    background: #ffffffea;
+    color: #222;
+}
+
+/* #pills-food-tab:hover,
+#pills-events-tab:hover,
+#pills--location-tab:hover{
+
+} */
+
+

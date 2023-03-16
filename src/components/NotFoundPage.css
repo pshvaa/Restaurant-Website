@@ -1,0 +1,112 @@
+.error-404{
+    /* height: 100vh; */
+    background-image: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/bg-page-title.jpg);
+    /* background-color: #fff; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.712);
+    background-blend-mode: multiply;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    position: fixed;
+    z-index: 999;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    /* margin-top: -2rem; */
+}
+
+.error-title{
+    margin-top: 8rem;
+    font-size: 25rem;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 2rem;
+    letter-spacing: -0.7rem;
+    animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+    2%, 64%{
+        transform: translate(2px,0) skew(0deg);
+    }
+
+    4%, 60%{
+        transform: translate(-2px,0) skew(0deg);
+    }
+
+    62%{
+        transform: translate(0,0) skew(5deg);
+    }
+}
+
+.error-title::before,
+.error-title::after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+}
+
+.error-title:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+    2%, 64%{
+        transform: translate(2px,-2px);
+    }
+
+    4%, 60%{
+        transform: translate(-2px,0);
+    }
+
+    62%{
+        transform: translate(13px,-1px) skew(-13deg);
+    }
+}
+
+.error-title:after{
+    animation:glitchBottom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBottom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+
+.icon-404{
+    display: inline-block;
+    width: 5.4rem;
+    height: 1.4rem;
+    background-image: url(http://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/icon-h1.png);
+}
+
+.error-text{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: auto;
+    max-width: 67rem;
+    padding: 1.8rem 3rem 3.5rem;
+    margin: 5rem auto 0;
+}
+

@@ -1,8 +1,16 @@
 import React from 'react'
 
+import Transitions from '../components/Transitions'
+import OurBlogs from '../components/OurBlogs'
+
 const Blogs = () => {
   return (
-    <div>Blogs</div>
+    <>
+      <Transitions>
+        <OurBlogs />
+      </Transitions>
+      
+    </>
   )
 }
 

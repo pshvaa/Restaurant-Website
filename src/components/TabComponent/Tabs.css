@@ -1,31 +1,39 @@
 .tab-menu{
-    padding:2.2rem;
+    padding:1.2rem;
     width: 100%;
 }
 
 .tab-menu > .text{
+    font-family: 'Poppins';
+    color: #a5a5a5;
     line-height: 2.4rem;
     width:50%;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /* Tab Container */
 .Tabs {
     
-    width: 90%;
+    width: 100%;
     height: auto;
     min-height: 400px;
     /* background: #053742; */
-    margin: 3.5rem auto 1.5rem;
+    /* margin: 3.5rem auto 1.5rem; */
     padding: 2rem 1rem;
     color: #E8F0F2;
     border-radius: 2rem;
-    @media (max-width: 769px) {
+  
+  }
+
+  @media (max-width: 769px) {
+    .Tabs{
       padding: 2rem 0;
     }
-  
   }
   
  /* Tab Navigation */
@@ -37,17 +45,27 @@ ul.nav-tab {
     justify-content: space-between;
     /* border: 1px solid #39A2DB; */
     border-radius: 2rem;
-    @media (max-width: 768px) {
+  }
+
+  @media (max-width: 768px) {
+    ul.nav-tab{
       width: 90%;
     }
   }
   ul.nav-tab li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
     width: 50%;
     padding: 1rem;
     list-style: none;
     text-align: center;
     cursor: pointer;
     transition: all 0.7s;
+    /* border-radius: 0;
+    border: none; */
     /* border-bottom-left-radius: 2rem;
     border-top-left-radius: 2rem; */
   }
@@ -72,7 +90,70 @@ ul.nav-tab {
   }
   ul.nav-tab li.active {
     background: #222;
+    color: #fff;
   }
+
+  .outlet{
+    box-shadow: 0 10px 40px rgba(0,0,0,.0001);
+    margin-top: 7rem;
+  }
+
+@media(max-width: 1326px){
+   .tab-card-1,
+   .tab-card-2{
+    width: 100%;
+    padding: 3rem;
+   }
+
+   .tab-card-1:last-child,
+  .tab-card-2:last-child{
+    margin-top: -21rem;
+  }
+
+  .recipes-inline .text.small{
+    width: 100%;
+  }
+}
+
+@media(max-width: 920px){
+  /* .tab-menu .text{
+    width: 70%;
+  } */
+
+  .tab-card-1,
+   .tab-card-2{
+    /* width: 100%; */
+    padding: 4rem;
+   }
+}
+
+@media(max-width:767px){
+  .tab-card-1:last-child,
+  .tab-card-2:last-child{
+    margin:10rem auto 35rem;
+  }
+
+  .tab-content:last-child{
+      margin-top: 2rem;
+  }
+
+  .tab-menu .heading{
+    font-size: 4rem;
+  }
+
+  .tab-menu .text{
+    width: 80%;
+  }
+
+
+}
+
+@media(max-width:630px){
+    .tab-menu .text{
+      width: 100%;
+      padding: 1rem;
+    }
+}
 
 
   

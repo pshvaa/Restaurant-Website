@@ -1,0 +1,66 @@
+.our-club{
+    height: 53rem;
+    width:100vw;
+    max-width: 100%;
+    padding:3rem 0;
+    /* */
+    background: url("http://templates.framework-y.com/gourmet/images/bg-13.jpg");
+    /* margin: 15rem auto !important;  doesn't work*/
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+  
+}
+
+.our-club-content{
+    padding:4rem 4rem 4rem 0;
+    width:47%;
+    margin: 0 auto;
+}
+
+.our-club-content .text{
+    text-align: center;
+    font-family: 'Handlee';
+    /* width:60%; */
+    margin-bottom: 0;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.945);
+}
+
+.our-club-content img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+}
+
+.our-club p,h2{
+    color: #222;
+    /* display: inline; */
+}
+
+/* .our-club .text{
+    width:50%;
+} */
+
+@media(max-width: 1445px){
+    .our-club-content{
+        margin: 0;
+        padding: 2rem;
+        width:100%;
+    }
+
+    .our-club-content .text{
+        padding: 2rem;
+        /* width:75%; */
+        margin: 0 auto;
+    }
+
+    /* .our-club{
+        background-blend-mode: multiply;
+    } */
+}

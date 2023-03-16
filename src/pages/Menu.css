@@ -1,14 +1,39 @@
-.parallax-menu-intro{
-    height: 30rem;
-    overflow: hidden;
-    display: block;
-    background: black;
-    /* margin-top: 200px; */
-    margin-bottom: 200px;
-    position: relative;
-    /* top: 2rem; */
-    overflow: hidden;
+
+
+  .bg-parallax-menu:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left:0;
+    bottom:0;
   }
+
+  .bg-parallax-menu:before{
+    content: '';
+    width: 100%;
+    height:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden ;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    -moz-transform: translateZ(0) scale(1.0, 1.0);
+    -ms-transform: translateZ(0) scale(1.0, 1.0);
+    -o-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0) scale(1.0, 1.0);
+    animation: increase 60s linear 10ms infinite;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: -2;
+  }
+
+  
 
   .parallax-title{
     position: absolute;
@@ -19,11 +44,11 @@
     padding: 16px;
     width: 100%; 
     transform-style: flat; 
-     transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
   }
 
   .bg-parallax-menu {
-    background-image: url("https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1200&format=pjpg&exif=1&iptc=1");
+    /* background-image: url("http://templates.framework-y.com/gourmet/images/bg-28.jpg"); */
     position: absolute;
     top:0;
     left:0;
@@ -37,6 +62,7 @@
     background-size: cover;
     background-attachment: scroll;
     background-attachment: fixed;
+    /* background-color: rgba(27,26,26,0.75); */
      opacity: .7; 
   }
 
@@ -56,7 +82,7 @@
   }
   */
 
-  .bg-parallax{
+  /* .bg-parallax{
     background-image: url("../images/parallax-img/21.jpg");
     min-height: 300px;
     height: 100vh; 
@@ -66,7 +92,7 @@
     background-size: cover;
     filter: brightness(50%);
     height:100%;
-  }
+  } */
   
   .recipes{
       display: flex;
@@ -75,17 +101,13 @@
       align-items: center;
       background-color: #fff;
       padding: 1.3rem;
-      width: 68%;
+      width: 73%;
       /* max-width: fit-content; */
       height: 50%;
       margin: 0 auto;
       
   }
   
-  .recipes-inline{
-      border: 2px dashed #eee;
-      
-  }
 
   /* .menu{
     padding: 4rem;
@@ -94,6 +116,17 @@
   /* .all-menu{
     
   } */
+
+
+  @keyframes increase{
+    0%{
+      transform: scale(1);
+    }
+
+    100%{
+      transform: scale(1.5);
+    }
+  }
 
 
   

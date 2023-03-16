@@ -1,0 +1,169 @@
+.blogs-section{
+    margin-bottom: 5rem;
+}
+
+.blogs-section .parallax-section .section-divider{
+    height: 0;
+}
+
+.blogs-bottom{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 9rem;
+    width: 100%;
+}
+
+.tagbox .title-2{
+    color: #222;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 0.8rem;
+    padding:2rem 0;
+    border-bottom: 0.4rem solid var(--gold-crayola);
+    border-radius: 0.4rem;
+}
+
+/* .tagbox .title:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--gold-crayola);
+} */
+
+.blogs-section .section-divider{
+    height: 0;
+}
+
+.blog-card .headline .title-1{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;;
+    font-weight: 600;
+    color: var(--dark-brown);
+}
+
+.blog-card .metadata{
+    font-style: italic;
+}
+
+.tags{
+    display: flex;
+    padding: 1.5rem 0;
+    width:25rem;
+}
+
+.tags a{
+    display: inline;
+    background-color:var(--gold-crayola);
+    border: 1px solid var(--gold-crayola);
+    border-radius: 0.2rem;
+    max-width: fit-content;
+    color: rgba(0, 0, 0, 0.272);
+    padding: 1rem;
+    margin:0.4rem;
+}
+
+.tags a:hover{
+    opacity: .5;
+    color: #fff;
+}
+
+.sponsor-slider{
+    background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 10rem;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.sponsor-slider::after,
+.sponsor-slider::before{
+        background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+/* }r::before { */
+    left: 0;
+    top: 0;
+}
+
+.sponsor-slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+.sponsor-slider .slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+
+@media(max-width: 1500px){
+    .blogs-bottom{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .tags{
+        width: 58rem
+    }
+
+
+}
+
+@media(max-width:1230px){
+    .blogs-bottom .blog-cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pagination-container, .tagbox{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:980px){
+    .blogs-bottom .text{
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .blog-card{
+        margin-bottom: 3rem;
+    }
+
+    .blog-card .headline .title-1{
+        font-size: 2rem;
+    }
+
+    .blog-card .metadata{
+       padding-top:0;
+    }
+}
+

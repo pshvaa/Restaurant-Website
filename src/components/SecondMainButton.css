@@ -1,0 +1,88 @@
+.second-main-btn{
+    width: 100%;
+}
+
+.main-button-2 {
+    width: 11em;
+    height: 3em;
+    color: #222 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: var(--gold-crayola);
+    cursor: pointer;
+    border: 0.3rem solid var(--gold-crayola);
+    border-radius: 0.5em;
+  
+    line-height: 3em;
+    letter-spacing: 2px;
+    /* letter-spacing: var(--letterSpacing-2); */
+    /* padding: 1rem; */
+    margin: 3rem auto;;
+  
+    box-shadow: 0 0 0 0 transparent;
+  
+    transition: all 0.2s ease-in;
+  
+  }
+
+  .main-button-2 p{
+    color: #222;
+  }
+
+  .main-button-2:hover {
+    color: white;
+    box-shadow: 0 0 30px 0 transparentize(var(--gold-crayola), 0.5);
+    background-color: var(--gold-crayola);
+    transition: all 0.2s ease-out;
+
+  }
+
+  .main-button-2:hover:before {
+    animation: shine 0.5s 0s linear;
+  }
+
+  .main-button-2:active {
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow 0.2s ease-in;
+  }
+
+  .main-button-2:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+
+    opacity: 0;
+    background: white;
+    box-shadow: 0 0 15px 3px white;
+    transform: skewX(-20deg);
+  }
+
+  @keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+
+  .main-button-2 span{
+    padding: 0;
+  }

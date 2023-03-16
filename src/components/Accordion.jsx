@@ -5,15 +5,15 @@ import './Accordion.css'
 import faqData from '../faqs.json'
 
 const Accordion = () => {
-  const [clicked, setClicked] = useState("0");
+  // const [clicked, setClicked] = useState("0");
 
-  const handleToggle = (a) =>{
-    if(clicked === a){
-        return setClicked("0");
-      }
+  // const handleToggle = (a) =>{
+  //   if(clicked === a){
+  //       return setClicked("0");
+  //     }
 
-    setClicked(a);
-  }
+  //   setClicked(a);
+  // }
   return (
     <ul className="accordion">
     {faqData.map(({ question, answer }) => (

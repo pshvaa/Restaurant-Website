@@ -13,31 +13,39 @@ import "./Testimonials.css";
 // import required modules
 import { Pagination } from "swiper";
 import testimonialData from '../clients.json'
+import StoryClub from './StoryClub';
+import Reservation from './Reservation';
 
 const Testimonials = () => {
   return (
     <>
       <div className="testimonials-sec">
-        <div className="test-parallax"></div>
-        <div className="regular-wrapper">
+        <div className="test-parallax">
+              <div className="regular-wrapper">
+               </div>
              <div className="handwriting">Testimonials</div>
              <h1 className="heading">Happy Customers</h1>
              <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
+        slidesPerView={3}
+        spaceBetween={50}
         pagination={{
           clickable: true,
         }}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
+          375: {
+            slidesPerView: 1,
             spaceBetween: 20,
           },
+          500: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+
           768: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 40,
           },
-          1024: {
+          1200: {
             slidesPerView: 3,
             spaceBetween: 50,
           },
@@ -52,7 +60,16 @@ const Testimonials = () => {
         ))
       }
              </Swiper>
+
+
         </div>
+
+        <StoryClub />
+
+        <div className="test-parallax">
+            <Reservation />
+        </div>
+
         </div>
     </>
   )

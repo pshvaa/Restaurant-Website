@@ -1,4 +1,8 @@
 /* Google Font CDN Link */
+.contact-section .section-divider{
+  height: 0;
+}
+
 .contact-container{
   width: 85%;
   margin: 0 auto;
@@ -7,6 +11,8 @@
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+.c
 .contact-container .contact-content{
   display: flex;
   align-items: center;
@@ -101,6 +107,34 @@
 }
 .button input[type="button"]:hover{
   background: #5029bc;
+}
+
+/*contact -- me*/
+
+.contact-parallax-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.find-us-card{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width:36rem;
+  height: 20rem;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+
+.contact-icon{
+  color:#fff;
+  font-size: 5rem;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {

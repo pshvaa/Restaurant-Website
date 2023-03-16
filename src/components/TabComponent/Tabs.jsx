@@ -14,19 +14,19 @@ const [activeTab, setActiveTab] = useState("tab1");
     <>
       <div className="tab-menu">
       <p className="handwriting">Start Eating Better</p>
-     <h1 className="heading">Daily New Fresh Meals</h1>
-     <p className="text">Steak In has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and alovely awesome on site coffee roastery.</p>
+     <h1 className="heading">Gündəlik Yenilənən Menyu</h1>
+     <p className="text">Müəllif qəlyanaltıların və salatların ləzzətli çeşidi, sac və manqalda hazırlanan yeməklər və, əlbəttəki, inanılmaz dada malik şərq şirniyyatları bugünədək görmədiyiniz fərqli bir dad çalarlarını yaradacaqlar.</p>
      <div className="Tabs">
       {/* Tab nav */}       
       <ul className="nav-tab">
-        <TabNavItem title="Breakfast" id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
-        <TabNavItem title="Lunch" id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>
-        <TabNavItem title="Dinner" id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="Səhər Yeməyi" id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="Qəlyanaltı" id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="Nahar" id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}/>
         <TabNavItem title="Dessert" id="tab4" activeTab={activeTab} setActiveTab={setActiveTab}/>
-        <TabNavItem title="Drinks" id="tab5" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="İçkilər" id="tab5" activeTab={activeTab} setActiveTab={setActiveTab}/>
       </ul>
       <div className="outlet">
-           <TabContent id="tab1" activeTab={activeTab}>{
+           <TabContent className='row' id="tab1" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type1 == 'breakfast';
             })
@@ -40,7 +40,7 @@ const [activeTab, setActiveTab] = useState("tab1");
             })
            }
            </TabContent>
-           <TabContent id="tab2" activeTab={activeTab}>{
+           <TabContent className='row' id="tab2" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type1 == 'lunch';
             })
@@ -54,7 +54,7 @@ const [activeTab, setActiveTab] = useState("tab1");
             })
            }   
            </TabContent>
-           <TabContent id="tab3" activeTab={activeTab}>{
+           <TabContent className='row' id="tab3" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type1 == 'dinner';
             })
@@ -68,7 +68,7 @@ const [activeTab, setActiveTab] = useState("tab1");
             })
            }
            </TabContent>
-           <TabContent id="tab4" activeTab={activeTab}>{
+           <TabContent className='row' id="tab4" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type1 == 'dessert';
             })
@@ -82,7 +82,7 @@ const [activeTab, setActiveTab] = useState("tab1");
             })
            }
            </TabContent>
-           <TabContent id="tab5" activeTab={activeTab}>{
+           <TabContent className='row' id="tab5" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type1 == 'drink';
             })
@@ -99,7 +99,7 @@ const [activeTab, setActiveTab] = useState("tab1");
 
 
            {/* For type-2 cards which left-side is image right-side is card */}
-           <TabContent id="tab1" activeTab={activeTab}>{
+           <TabContent className='row' id="tab1" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type2 == 'breakfast';
             })
@@ -114,7 +114,7 @@ const [activeTab, setActiveTab] = useState("tab1");
            }
            </TabContent>
 
-           <TabContent id="tab2" activeTab={activeTab}>{
+           <TabContent className='row' id="tab2" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type2 == 'lunch';
             })
@@ -129,7 +129,7 @@ const [activeTab, setActiveTab] = useState("tab1");
            }   
            </TabContent>
 
-           <TabContent id="tab3" activeTab={activeTab}>{
+           <TabContent className='row' id="tab3" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type2 == 'dinner';
             })
@@ -144,7 +144,7 @@ const [activeTab, setActiveTab] = useState("tab1");
            }
            </TabContent>
 
-           <TabContent id="tab4" activeTab={activeTab}>{
+           <TabContent className='row' id="tab4" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type2 == 'dessert';
             })
@@ -159,7 +159,7 @@ const [activeTab, setActiveTab] = useState("tab1");
            }
            </TabContent>
 
-           <TabContent id="tab5" activeTab={activeTab}>{
+           <TabContent className='row' id="tab5" activeTab={activeTab}>{
             receiptData.filter(filteredList => {
               return filteredList.type2 == 'drink';
             })
@@ -175,6 +175,8 @@ const [activeTab, setActiveTab] = useState("tab1");
            </TabContent>
       </div>
     </div>
+
+    {/* <div className="section-divider"></div> */}
       </div>
     </>
      );

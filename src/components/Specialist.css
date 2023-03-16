@@ -7,27 +7,35 @@
     color: #222;
 }
 .bg-parallax{
+  /* position: absolute; */
   background-image: url("../images/parallax-img/21.jpg");
-  min-height: 300px;
-  height: 100vh; 
+  min-height: 40rem;
+  min-width: 40rem;
+  /* height: 100vh;  */
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(50%);
+  background-color: grey;
+  background-blend-mode: multiply;
+  padding: 5rem;
+  /* filter: brightness(50%); */
   height:100%;
 }
 
 .recipes{
+    position: relative;
+    top:0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     padding: 1.3rem;
-    width: 68%;
+    width: 77%;
+    min-width:47rem;
     /* max-width: fit-content; */
-    height: 50%;
+    height: 100%;
     margin: 0 auto;
     
 }
@@ -47,23 +55,57 @@
   margin: 0 auto;
 }
  .recipe-card{
-    width: 39rem;
-    height: 22rem;
+    width: 40rem;
+    height: 18rem;
     padding: 2.2rem;
 } 
 
-.recipe-card .rc-right-side{
+/* .recipe-card .rc-right-side{
   padding: 3rem;
-}
+} */
 
 .rc-rs-top{
     border-bottom: 1px dashed #eee ;
-    align-items: center;
+    /* align-items: center; */
+}
+
+.rc-rs-top .name{
+  font-family: 'Poppins';
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    color: #333333;
+    /* margin-bottom: 0;
+    float: left; */
+}
+.rc-rs-top .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    color: var(--gold-crayola);
+    text-align: right;
+}
+
+.rc-rs-bottom .text{
+    padding: 0;
+    color:rgba(128, 128, 128, 0.911);
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    margin-bottom: 0;
+}
+
+.rc-right-side{
+  padding: 0 2rem;
 }
 
 .spec-img{
-    width:100%;
-    height:100%;
+    border-radius: 5rem;
+    width: 100px;
+    height: 100px;
+    max-width: 20rem;
     object-fit: cover;
 } 
 
@@ -123,4 +165,66 @@
   .invert {
     color: white;
   } */
+
+  .divider-shape-up{
+    width: 124px;
+    height: 13px;
+    background: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/arrow-up.png) center no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -62px;
+  }
+
+  .divider-shape-down{
+    width: 124px;
+    height: 13px;
+    background: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/arrow-down.png) center no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -62px;
+  }
+
+  @media(max-width: 1399px){
+    .top-side .recipe-card,
+    .bottom-side .recipe-card{
+      margin: 0 auto;
+      /* padding: 2rem; */
+    }
+
+    .recipe-card{
+      padding: 0;
+    }
+  }
+
+  @media(max-width: 1200px){
+    .specials-section .heading{
+      font-size: 4.5rem;
+    }
+  }
+
+
+
+  @media(max-width: 920px){
+    .specials-section .heading{
+      font-size: 4rem;
+    }
+  }
+
+
+
+  @media(max-width: 767px){
+    .specials-section .bg-parallax{
+        padding: 6rem 1rem;
+    }
+
+  }
+
+  /* max-width:575px) and  */
+  @media(max-width:534px){
+    .specials-section.sec.container{
+      padding: 5rem 0;
+    }
+  }
 

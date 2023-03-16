@@ -4,8 +4,15 @@
 }
 
 .welcome-section .text{
-    width: 50%;
-    height: 9.3rem;
+    width: 65%;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #a5a5a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    margin-bottom: 3rem;
+    padding: 0 4rem;
+    /* height: 9.3rem; */
     text-align: center;
 }
 
@@ -16,10 +23,22 @@
     align-items: center;
 }
 
+.img-left{
+    background-image: url(https://corefoodconsulting.com/wp-content/uploads/2022/09/luxury-restaurant-dining-e1667067354378.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: -5.65362px;
+}
+
 .img-left, .img-right{
-    width: 50%;
-    height: 85%;
-    min-width: 20rem;
+    width: 100%;
+    min-height: 35rem;
+    object-fit: cover;
+    max-width: 35rem;
+    /* min-width: 20rem; */
 }
 
 /* .img-left{
@@ -28,8 +47,10 @@
 
 .right-img{
     display: flex;
+    /* flex-wrap: wrap; */
     /* flex-wrap:wrap;  Bunu mediada yaz*/
     gap: 2rem;
+    /* min-width: 20rem; */
 }
 
 /* @media(max-width: 630px){
@@ -38,14 +59,101 @@
     }
 } */
 
+@media(max-width:1525px){
+    .welcome-section{
+        padding: 3rem;
+    }
+    .welcome-section .left-text .text{
+        width: 100%;
+        padding: 0;
+    }
+}
 
-@media(max-width:768px){
-    .right-img{
-        flex-wrap: wrap;
+@media(max-width: 1464px){
+    .welcome-section .left-text{
         margin: 0 auto;
+        padding:10rem;
+        width: 100%;
     }
 
-    .welcome-section .text{
-        width:92%;
+    .welcome-section .left-text .text{
+        padding: 0 5rem;
+    }
+
+    .welcome-section .img-left,
+    .welcome-section .img-right{
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:823px){
+    /* .welcome-section .img-left,
+    .welcome-section .img-right{
+        padding: 3rem;
+        margin: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .welcome-section .left-text{
+        padding:8rem;
+    }
+
+    .welcome-section .img-right{
+        padding: 0 !important;
+    }
+}
+
+@media(max-width:764px){
+    .welcome-section .left-text{
+        padding:7rem;
+    }
+    .welcome-section .img-left{
+        margin-bottom: 2rem;
+    }
+
+    .welcome-section .img-left,
+    .welcome-section .img-right{
+        padding: 0;
+    }
+}
+
+@media(max-width:730px){
+ 
+    .welcome-section .left-text{
+        padding:6rem;
+    }
+
+    .welcome-section .left-text .text{
+        padding: 0 2rem;
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:630px){
+    .welcome-section .left-text{
+        padding:5rem;
+    }
+
+    .welcome-section .left-text .text{
+        padding: 0;
+    }
+}
+
+@media(max-width:530px){
+    .welcome-section .left-text{
+        padding:4rem;
+    }
+}
+
+@media(max-width:430px){
+    .welcome-section .left-text{
+        padding:2rem;
     }
 }

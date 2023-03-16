@@ -7,14 +7,17 @@ import '../chefs.json'
 const ChefIntroCard = ({chefImage, name, surname, job, info}) => {
   return (
     
-      
-      <div className="tile col-12 col-md-4 col-lg-3">
+      <>
+       <div className="tile col-12 col-md-4 col-lg-3">
       <img src = {chefImage}/>
         <div className="text">
           <h1>{name} {surname}</h1>
           <h2 className="animate-text">{job}</h2>
           <p className="animate-text">{info}</p>
         </div>
+
+        {/* <div id="back" className="cardBack">{job}</div>
+      <div id="front" className="cardFront" style={{ backgroundImage: `url(${chefImage})`}}> {name} {surname}</div> */}
       
       <div className="dots">
     <span></span>
@@ -22,6 +25,9 @@ const ChefIntroCard = ({chefImage, name, surname, job, info}) => {
     <span></span>
       </div>
       </div>
+
+      {/* <Chef /> */}
+      </>
      
   )
 }

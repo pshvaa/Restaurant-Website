@@ -1,0 +1,196 @@
+/* .section.selectiom{
+  margin: 0 auto;
+}
+
+.selection .section-title { margin-block-end: 40px; }
+
+.selection .grid-list { margin-block-end: 50px; }
+
+.menu-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 5rem;
+}
+
+.menu-card a,
+.menu-card span,
+.menu-card p{
+  display: inline;
+}
+
+.hover\:card .card-banner { background-color: var(--gold-crayola); }
+
+.hover\:card .card-banner .img-cover { transition: var(--transition-2); }
+
+.hover\:card:is(:hover, :focus-within) .card-banner .img-cover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.menu-card .card-banner {
+  flex-shrink: 0;
+  border-radius: var(--radius-24);
+  width: 100%;
+  height:100%;
+}
+
+.card-banner .img-cover{
+    width: 10rem;
+    height: 10rem;
+}
+
+.menu-card .card-title { transition: var(--transition-1); }
+
+.menu-card .card-title:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+
+.menu-card .badge {
+  background-color: var(--gold-crayola);
+  color: var(--eerie-black-1);
+  font-family: var(--fontFamily-forum);
+  max-width: max-content;
+  line-height: var(--lineHeight-6);
+  text-transform: uppercase;
+  padding-inline: 10px;
+  margin-block-start: 10px;
+}
+
+.menu-card .span {
+  color: var(--gold-crayola);
+  margin-block: 10px;
+}
+
+.menu-card .span::before {
+  content: "";
+  height: 6px;
+  flex-grow: 1;
+  border-block: 1px solid var(--white-alpha-20);
+}
+
+
+.menu-card .card-text {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-4);
+}
+
+.menu-text{
+  margin: 0 auto;
+}
+
+.menu-text .span {
+  display: inline-block;
+  color: var(--gold-crayola);
+}
+
+.selection .btn {
+  margin-inline: auto;
+  margin-block-start: 26px;
+}
+
+.selection .shape {
+  display: block;
+  width: 70%;
+}
+
+.selection .shape-2 {
+  top: 0;
+  left: 0;
+}
+
+.selection .shape-3 {
+  bottom: 0;
+  right: 0;
+}
+
+@media (min-width: 575px){
+  .menu-card .span::before {
+    content: "";
+    height: 6px;
+    flex-grow: 1;
+    border-block: 1px solid var(--white-alpha-20);
+}
+} */
+
+.section.selection{
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+  margin:0;
+  padding: 0;
+}
+
+.menu--parallax{
+  background-image: url("http://templates.framework-y.com/gourmet/images/hd-portrait-3.jpg");
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: rgba(27,26,26,0.75); */
+   
+}
+
+.menu-header{
+  color : #361005;
+  font-weight: 600;
+  font-size: 34px;
+  font-family: 'Merienda', cursive;
+  line-height: 61px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.menyu-cards{
+  width: 72%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 5rem 0;
+  margin: 0 auto;
+}
+
+.section.selection .btn{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.section.selection .second-main-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .menu-cards .second-main-btn .main-button-2{
+  position: absolute;
+  ;
+} */
+
+@media(max-width:670px){
+  .menyu-cards{
+      width: 100%;
+      padding: 2.5rem;
+  }
+
+  .menu-card .left-side{
+    padding: 0 2rem;
+  }
+}
+
+@media(max-width:668px){
+  .menu-cards{
+      padding: 1.5rem;
+      margin: 0;
+  }
+
+  .menu-card .rs-top .name{
+    padding: 2px;
+    font-size: 1.4rem;
+  }
+}

@@ -1,29 +1,74 @@
-.faq.bottom-side.row{
-    padding: 11rem 5rem;
+.faq .bottom-side.row{
+    padding: 0 6rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -20rem; */
+}
+
+.faq .parallax-section .section-divider{
+    height: 0;
+}
+
+.poster{
+    /* height: 184vh; */
+    
+    margin-top: 3rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.poster .search-form{
+    height: 20%;
+    caret-color: var(--gold-crayola);
+}
+
+.poster .search-form .input{
+    color: #222;
 }
 
 .poster-bottom{
     background: #222;
-    width: 22rem;
-    height: 20rem;
-    padding-top: 1.5rem;
+    border-radius: 1.5em;
+    padding: 2rem !important;
+    width: 26rem;
+    height: 33rem;
+    /* padding-top: 1.5rem; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3.6rem;
 }
 
 .poster-bottom .text{
-    display: block;
+    /* display: block;
     font-style: italic;
     margin: 0 auto;
     line-height: 1.4rem;
     width: 13rem;
     text-align: center;
-    padding:1.5rem;
+    padding:1.5rem; */
+    color: #9b9b9b;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    font-style: italic;
+    margin-bottom: 23px;
+    
 }
 
 .poster-bottom{
-    margin: 0;
+    margin: 0 !important;
 }
 
-.poster-bottom .book-btn{
+.poster-bottom .main-button{
+    width: 78%;
+}
+
+/* .poster-bottom .book-btn{
     background: maroon;
     border-radius: 2rem;
     color:#fff;
@@ -32,13 +77,40 @@
     align-items: center;
     justify-content: center;
     width: 40%;
-    /* height: %; */
+    height: %;
     padding: 0.8rem;
     margin: 0 auto;
     text-transform: uppercase;
     cursor: pointer;
-}
+} */
 
 /* .accordion-sec{
     background: teal;
 } */
+
+.divider-pattern-up{
+    width: 124px;
+    height: 13px;
+    background: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/shape-10up.png) center no-repeat;
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    margin-left: -62px;
+
+}
+
+@media(max-width:960px){
+    .poster{
+        width:100%;
+        display: block;
+    }
+
+    .poster-bottom{
+        width: 100%;
+    }
+
+    .poster-bottom .main-button-1{
+        width: 100%;
+    }
+}
+

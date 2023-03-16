@@ -1,0 +1,7 @@
+.iframe-map{
+    filter: grayscale(100%);
+}
+
+.map .section-divider{
+    background-color: black;
+}

@@ -1,67 +1,46 @@
 import React from 'react'
+import Transitions from '../components/Transitions'
 import '../../src/components/Contact.css'
 import Map from '../components/Map'
+import Subscribe from '../components/Subscribe'
+import PageParallax from '../components/PageParallax/PageParallax'
+
+import { IoChatbubblesOutline } from "react-icons/io5";
+import { MdOutlinePlace } from "react-icons/md";
+import { FiPhoneCall } from "react-icons/fi";
+import ContactForm from '../components/ContactForm';
+
 const Contact = () => {
   return (
     <>
 
+   <Transitions >
+   <div className="contact-section" id="contact">
 
-    <div className="contact section" id="contact">
-        <div className="parallax-section">
-      <div classNameName="parallax-menu-intro">
-          <div classNameName="bg-parallax-menu"></div>
-          <div classNameName="parallax-title">
-             <h1 classNameName="heading">GET IN TOUCH</h1>
-             <p classNameName="text text-center">Contact Us</p>
-          </div>
-       </div>
-      </div>
+<PageParallax background="https://mediacity.co.in/delici/static/media/banner-image-4.f530974262de45d46544.jpg" title= "Əlaqə" subtitle="Ən son xəbərlər və hadisələr" />
+{/* <div className="bc-video-bottom"></div> */}
+
+{/* <div className="parallax-section">
+<div className="parallax-menu-intro">
+    <div className="bg-parallax-menu"></div>
+    <div className="parallax-title">
+       <h1 className="heading">Stay Updated</h1>
+       <p className="text text-center">Latest News & Events</p>
        
-      <div className="contact-container">
-    <div className="contact-content">
-      <div className="left-side">
-        <div className="address details">
-          <i className="fas fa-map-marker-alt"></i>
-          <div className="topic">Address</div>
-          <div className="text-one">Surkhet, NP12</div>
-          <div className="text-two">Birendranagar 06</div>
-        </div>
-        <div className="phone details">
-          <i className="fas fa-phone-alt"></i>
-          <div className="topic">Phone</div>
-          <div className="text-one">+0098 9893 5647</div>
-          <div className="text-two">+0096 3434 5678</div>
-        </div>
-        <div className="email details">
-          <i className="fas fa-envelope"></i>
-          <div className="topic">Email</div>
-          <div className="text-one">codinglab@gmail.com</div>
-          <div className="text-two">info.codinglab@gmail.com</div>
-        </div>
-      </div>
-      <div className="ct-right-side">
-        <div className="topic-text">Send us a message</div>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-      <form action="#">
-        <div className="input-box">
-          <input type="text" placeholder="Enter your name" />
-        </div>
-        <div className="input-box">
-          <input type="text" placeholder="Enter your email" />
-        </div>
-        <div className="input-box message-box">
-           <textarea placeholder='Your message'></textarea>
-        </div>
-        <div className="button">
-          <input type="button" value="Send Now" />
-        </div>
-      </form>
     </div>
-    </div>
-      </div>
+ </div>
+</div> */}
+ 
+<ContactForm />
+</div>
 
-      <Map />
-    </div>
+{/* <Subscribe /> */}
+
+<Map />
+   </Transitions>
+
+
+    
 
 
     </>

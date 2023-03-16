@@ -1,0 +1,56 @@
+.chefs{
+    position: relative;
+}
+
+.chef-bg{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.chef-bg img{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.chef-wrap .parallax-main-title .title{
+    font-size:6.5rem;
+}
+
+.chefs .section-divider{
+    height: 0;
+}
+
+
+.chefs {
+    margin-top: -12rem;
+}
+
+/* .chefs .parallax-menu-intro .section-divider{
+    height: 0;
+} */
+
+.page-title-icon span{
+    display: inline-block;
+    width: 64px;
+    height: 69px;
+    background-image: url(https://7oroof.com/tfdemos/wp-granny/wp-content/themes/granny/assets/images/page-title-icon.png);
+    background-repeat: no-repeat;
+    margin-bottom: -15rem;
+}
+
+.para-chef-wrapper{
+    position: relative;
+}
+
+.page-title-icon {
+    position: absolute; 
+    left: 50%;
+    top: 11%;
+  }
+
+ .chefs .parallax-title-main .title{
+     font-size: 3.2rem;;
+  }

@@ -1,0 +1,60 @@
+.myBtn{
+    width: 15rem;
+    font-size: 1.2rem;
+    min-height: 3.2rem;
+    background: transparent;
+    border: 1px solid #919191;
+    border-radius: 3rem;
+    text-align: center;
+    letter-spacing: .3rem;
+    padding: 0.3rem 1.3rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
+}
+
+/* .myBtn,
+.myBtn::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}  */
+
+.myBtn:before,
+.myBtn:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #222; /* onhover background color */
+  z-index: -1;
+  transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+
+.myBtn:before{
+  background: transparent; /* button default background color */
+  z-index: -2;
+  transform: translate3D(0,0,0);
+}
+
+.myBtn:hover{
+  color: white;
+}
+
+.myBtn:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+}
+
+  
